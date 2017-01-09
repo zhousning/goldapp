@@ -1,0 +1,37 @@
+<ion-view view-title="">
+  <ion-content class="home-body">
+
+    <ion-slide-box active-slide="myActiveSlide">
+      <ion-slide>
+        <div class="box home-carousel">
+          <img src="img/klw.png">
+        </div>
+      </ion-slide>
+    </ion-slide-box>
+
+    <div class="home-section">
+      <div class="home-template-head">
+        <span>论文范文</span>
+      </div>
+
+      <div class="row">
+        <div class="col col-33" ng-repeat="thesis in index.theses">
+          <div class="sample-list">
+            <a href="#/tab/theses/{{thesis.number}}" class="template-bg0 sample-perspective">
+              <div class="sample-3d-book">
+                <img src="img/cover_jlict.png">
+                <div class="sample-pages sample-pages-one"></div>
+                <div class="sample-pages sample-pages-two"></div>
+                <div class="sample-pages sample-pages-two"></div>
+              </div>
+            </a>
+            <div class="cover-title-box">
+              <h2 class="home-thesis-title">{{thesis.title_cn}}</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </ion-content>
+</ion-view>

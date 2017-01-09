@@ -1,0 +1,22 @@
+<ion-view view-title="社区">
+  <ion-content class="home-body">
+    <ion-list>
+      <ion-item href="#/tab/posts/{{post.id}}" class="theses-index post-list" ng-repeat="post in index.posts">
+        <div class="item item-avatar post-img-box">
+           <img src="img/avatar.jpg">
+           <div class="post-header">
+             <h2 class="post-name">{{post.name}}</h2>
+             <span class="post-date">{{post.date}}</span>
+           </div>
+           <h3 class="post-title">
+             {{post.title}}
+           </h3>
+           <div class="post-footer">
+             <small class="post-border">{{post.label}}</small>
+             <small>- {{post.reply_size}}条评论 -</small>
+           </div>
+        </div>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

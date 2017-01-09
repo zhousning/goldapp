@@ -1,0 +1,14 @@
+body{
+  background: #f5f5f5;
+}
+.row{
+  flex-wrap: wrap;
+}
+ion-tabs.tabs-striped.tabs-color-active-orange .tab-item.tab-item-active{
+  border-color: #ff4500;
+  color: #ff4500;
+}
+.tabs-striped.tabs-color-active-orange .tab-item.activated{
+  border-color: #ff4500;
+  color: #ff4500;
+}

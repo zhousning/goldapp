@@ -1,0 +1,50 @@
+<ion-view view-title="帖子详情">
+  <ion-content class="padding">
+    <div class="item item-avatar post-show-header">
+      <img src="img/avatar.jpg">
+      <h2 class="post-show-name">{{show.post.name}}</h2>
+      <span class="post-show-date">{{show.post.date}}</span>
+      <i class="icon ion-star post-star"></i>
+    </div>
+    <h3 class="post-show-title">
+      {{show.post.title}}
+    </h3>
+    <p class="post-show-info">
+      <small class="post-border">{{show.post.label}}</small>
+      <small>{{show.post.reply_size}}条评论</small>
+    </p>
+    <p class="post-show-content-word">
+      {{show.post.content}}
+    </p>
+    <div class="post-show-footer-content">
+      <div class="post-show-hd">
+        <span>全部评论</span>
+        <span>只看作者</span>
+      </div>
+      <div class="post-show-user-header">
+        <div class="post-show-user">
+          <img src="img/avatar2.jpg">
+        </div>
+        <div class="post-show-content">
+          <h2>ACCRESS</h2>
+          <span>2016-09-09</span>
+          <p class="post-show-footer-title">
+            持之以恒总有意想不到的收获。
+          </p>
+        </div>
+      </div>
+      <div class="post-show-user-header">
+        <div class="post-show-user">
+          <img src="img/avatar2.jpg">
+        </div>
+        <div class="post-show-content">
+          <h2>ACCRESS</h2>
+          <span>2016-09-09</span>
+          <p class="post-show-footer-title">
+            永不服输就会看到希望。
+          </p>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

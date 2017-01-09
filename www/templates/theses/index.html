@@ -1,0 +1,54 @@
+<ion-view view-title="论文列表">
+  <ion-content>
+    <div class="filter-container">
+      <div class="filter-label-container">
+        <div class="filter-label-bar">
+          <span class="filter-label-head">
+            专业：
+          </span>
+          <ul class="filter-label-list">
+            <li class="filter-label-active">全部</li>
+            <li>软件工程</li>
+            <li>计算机科学与技术</li>
+            <li>通信工程</li>
+            <li>信息与通信工程</li>
+            <li>电子信息工程</li>
+            <li>其他</li>
+          </ul>
+        </div>
+
+        <div class="filter-label-bar">
+          <span class="filter-label-head">
+            年份：
+          </span>
+          <ul class="filter-label-list">
+            <li class="filter-label-active">全部</li>
+            <li>2016</li>
+            <li>2015</li>
+            <li>2014</li>
+            <li>2013</li>
+            <li>更早 </li>
+          </ul>
+        </div>
+      </div>
+      <div class="template-container">
+        <div class="home-template-head">
+          <span>范文列表</span>
+        </div>
+        <div class="row">
+          <div class="col col-33" ng-repeat="thesis in index.theses">
+            <a href="#/tab/theses/{{thesis.number}}" class="template-cover">
+              <div class="cover-img-box">
+                <img src="img/cover_jlict.png">
+                <span>{{thesis.author}}</span>
+              </div>
+              <div class="cover-title-box">
+                <h2>{{thesis.title_cn}}</h2>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

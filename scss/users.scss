@@ -1,0 +1,97 @@
+.user-header{
+  padding: 10px 15px;
+  position: relative;
+  background: #fff;
+  margin-top: 10px;
+}
+.user-header-img{
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+.user-header-img img{
+  width: 100%;
+}
+.user-header-content{
+  padding-left: 65px;
+}
+.user-name{
+  display: inline-block;
+  font-size: 16px;
+  margin: 0;
+  padding: 5px 0;
+  font-weight: 400;
+}
+.user-email{
+  font-size: 12px;
+  color: #999;
+  margin: 0;
+}
+.user-money{
+  display: inline-block;
+  padding-left: 24px;
+  background: url("../img/user_money.png") no-repeat 5px center;
+  background-size: 16px;
+  margin-left: 20px;
+  color: #ff5013;
+}
+.user-menu-content{
+  margin: 10px 0;
+}
+.user-menu-bar{
+  padding: 14px 15px;
+  background: #FFF;
+  position: relative;
+  margin-bottom: -1px;
+}
+.user-menu-bar::after{
+  content: "";
+  position: absolute;
+  z-index: 5;
+  left: 15px;
+  right: 15px;
+  bottom: -1px;
+  height: 1px;
+  border-bottom: 1px solid #ccc;
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+.user-menu-bar a{
+  padding-left: 35px;
+  color: #333;
+  text-decoration: none;
+  font-size: 15px;
+}
+.user-menu-icon{
+  position: absolute;
+  left: 15px;
+  top: 13px;
+  display: block;
+  width: 22px;
+  height: 22px;
+  background: url("../img/user_icon.png") no-repeat;
+  background-size: 777px;
+}
+.user-theses{
+  background-position: -82px 0px;
+}
+.user-order{
+  background-position: -103px 0px;
+}
+.user-consum{
+  background-position: -41px 0px;
+}
+.user-task{
+  background-position: -144px 0px;
+}
+.user-fankui{
+  background-position: 2px 0px;
+}
+.user-houtai{
+  background-position: -165px 0px;
+}

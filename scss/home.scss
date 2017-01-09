@@ -1,0 +1,328 @@
+.home-bar-positive{
+  background: #f5f5f5;
+}
+.home-section{
+  padding-top: 5px;
+  padding-bottom: 15px;
+  margin-top: 5px;
+  background: #FFF;
+  font-family: "Times New Roman", 微软雅黑, "Microsoft YaHei", sans-serif;
+  overflow: hidden;
+}
+.home-head{
+  position: relative;
+  text-align: center;
+  background: #FFF;
+  padding-bottom: 20px;
+}
+.home-head h1{
+  color: #fd5d1e;
+  font-size: 20px;
+  display: inline-block;
+  padding: 0 10px;
+  margin: 0;
+}
+.home-head h1 span{
+  display: inline-block;
+  width: 40px;
+  height: 31px;
+  background: url("../img/home_head_bg.png") repeat-x 0px 24px;
+}
+.home-head i{
+  color: #FFF;
+  background: #29AFFC;
+  font-size: 12px;
+  padding: 2px 4px 1px 4px;
+  margin: 0 4px;
+  font-style: normal;
+  border-radius: 2px;
+}
+.home-head i:last-child{
+  background: #FF4A4A;
+}
+.home-template-head {
+  position: relative;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 2px;
+  margin: 0 10px;
+  padding: 10px 0 5px 0;
+}
+.home-template-head span {
+  height: 24px;
+  font-size: 14px;
+  color: #4e4e4e;
+}
+.home-more {
+  position: absolute;
+  top: 2px;
+  right: 12px;
+  font-size: 12px;
+  color: #ff4500;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+}
+.sample-list{
+  margin-bottom: 0px;
+  overflow: hidden;
+  border: 1px solid #cfcfcf;
+  border-radius: 2px;
+  box-shadow: 0px 7px 15px -8px rgba(0, 0, 0, 0.2);
+}
+.sample-list a {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #F5F5F5;
+  overflow: hidden;
+}
+.sample-perspective {
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+}
+.template-bg0 {
+  background: #d4d2c6;
+}
+.sample-3d-book {
+  width: 75%;
+  margin: 0 auto;
+  position: relative;
+  top: 15px;
+}
+.sample-3d-book img {
+  width: 100%;
+  transform: rotateY(25deg);
+  -webkit-transform: rotateY(25deg);
+  box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.1);
+  transform-origin: right center;
+  -webkit-transform-origin: right center;
+  position: relative;
+  z-index: 5;
+}
+.sample-pages {
+  position: absolute;
+  transform: rotateY(28deg);
+  -webkit-transform: rotateY(28deg);
+  width: 98%;
+  height: 100%;
+  border-radius: 0px 1px 1px 0px;
+  border: 1px solid #ddd;
+  background: #fffbec;
+  transform-origin: right center;
+  -webkit-transform-origin: right center;
+}
+.sample-pages-one {
+  left: -6px;
+  top: 2px;
+  z-index: -1;
+}
+.sample-pages-two {
+  left: -9px;
+  top: 4px;
+  z-index: -2;
+}
+.sample-pages-three {
+  left: -12px;
+  top: 6px;
+  z-index: -3;
+  box-shadow: -7px 7px 21px rgba(0, 0, 0, 0.3);
+}
+.home-template-name {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0;
+  line-height: 31px;
+  height: 31px;
+  text-align: center;
+  border-bottom: 1px solid #e7e7e7;
+  background: #FFF;
+  font-size: 14px;
+}
+.home-text-overflow {
+  overflow: hidden;
+}
+.home-sample-title {
+  display: inline-block;
+  padding: 0px 8px 0 8px;
+  color: #FFF;
+  background: #ff7070;
+  line-height: 22px;
+  margin-right: 3px;
+  border-radius: 2px;
+  font-size: 12px;
+}
+.home-sample-school {
+  background: #f6f6f6;
+  border-top: 1px solid #FFF;
+  text-align: center;
+  overflow: hidden;
+  margin: 0;
+  font-size: 12px;
+  color: #7e7e7e;
+}
+.home-sample-school p {
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 20px;
+  margin: 2px 0;
+  text-align: left;
+}
+.home-sample-info {
+  padding: 5px 8px;
+  color: #FFF;
+  background: #3EBF62;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+.home-partner {
+  padding-bottom: 60px;
+  background: url("../img/home_partner_bg.jpg") no-repeat;
+  background-size: cover;
+}
+.partner-head{
+  background: transparent;
+}
+.home-list {
+  padding-left: 0;
+  text-align: center;
+}
+.partner-list li {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: url("../img/schools_bg.png") no-repeat;
+  line-height: 98px;
+  border: 0;
+  border-radius: 0;
+  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.4);
+  margin-top: -2px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.partner-school-name {
+  display: block;
+  position: absolute;
+  top: -102px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  color: #FFF;
+  font-size: 14px;
+  background: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  z-index: 1;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+.partner-list .school-qinghua {
+  background-position: -8px -2px;
+}
+.partner-list .school-beijing {
+  background-position: -116px -2px;
+}
+.partner-list .school-beijingligong {
+  background-position: -322px -2px;
+}
+.partner-list .school-dianzikeji {
+  background-position: -823px -5px;
+}
+.partner-list .school-dongnan {
+  background-position: -7px -109px;
+}
+.partner-list .school-fudan {
+  background-position: -115px -109px;
+}
+.partner-list .school-haerbingongye {
+  background-position: -322px -109px;
+}
+.partner-list .school-huananligong {
+  background-position: -517px -109px;
+}
+.partner-list .school-lanzhou {
+  background-position: -321px -222px;
+}
+.partner-list .school-zhejiang {
+  background-position: -618px -330px;
+}
+.partner-list .school-dongbeidianli {
+  background-position: -926px -5px;
+}
+.partner-list .school-jilin {
+  background-position: -721px -108px;
+}
+.partner-list .school-changchunligong {
+  background-position: -420px -3px;
+}
+.partner-list .school-jilinjianzhu {
+  background-position: -1036px -111px;
+}
+.partner-list .school-jilincaijing {
+  background-position: -822px -109px;
+}
+
+.home-text-left {
+  text-align: left;
+}
+.home-header h1{
+  color: white;
+  text-align: center;
+  margin-top: 55px;
+  font-size: 20px;
+}
+.home-main{
+}
+.home-item-card{
+  margin: 25px;
+  border-width: 0px;
+  border-bottom: 1px solid #dfdfdf;
+}
+.home-item-card h2{
+  margin-bottom: 10px;
+  text-align: center;
+  border-right: 4px solid #33cd5f;
+}
+.home-item-card p{
+  white-space: initial;
+  line-height: 23px;
+}
+.home-footer{
+}
+.home-body{
+  background: #eee;
+}
+.home-carousel img{
+  width: 100%;
+}
+.home-template{
+  background: #FFF;
+}
+.home-template h1{
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 13px;
+  color: #fd5d1e;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #f9f9f9;
+}
+.home-template h1::after{
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  background: #fd5d1e;
+  position: absolute;
+  left: 5px;
+  top: 9px;
+}
+.template-cover{
+  display: block;
+  text-decoration: none;
+}
+.home-relative{
+  position: relative;
+}
+.cover-title-box .home-thesis-title{
+  padding: 2px 5px 0px;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
